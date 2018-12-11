@@ -19,7 +19,7 @@ class InputPage extends React.Component{
                 <div className={ "inputInnerDiv shadowCentralComponent" }>
                     <h2 className={ "titleElement" }>Input text</h2>
                     <p>Type or copy and past text to be broken in sentences and scrambled:</p>
-                    <InputText handleSubmit={ () => this.registerInputText } />
+                    <InputText onSubmit={ this.registerInputText } />
                 </div>
                 <div className={ "inputLiftDiv"}></div>
             </div>
