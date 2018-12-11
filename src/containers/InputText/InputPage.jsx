@@ -7,6 +7,7 @@ import './InputText.css'
 class InputPage extends React.Component{
 
     registerInputText = ( values ) => {
+        console.log( 'in register with values: ', values )
         this.props.registerText( values )
         this.props.history.push( '/observe-text' )
     }
@@ -18,7 +19,7 @@ class InputPage extends React.Component{
                 <div className={ "inputInnerDiv shadowCentralComponent" }>
                     <h2 className={ "titleElement" }>Input text</h2>
                     <p>Type or copy and past text to be broken in sentences and scrambled:</p>
-                    <InputText handleSubmit={ this.registerInputText } />
+                    <InputText handleSubmit={ () => this.registerInputText } />
                 </div>
                 <div className={ "inputLiftDiv"}></div>
             </div>

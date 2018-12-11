@@ -5,6 +5,7 @@ import './InputText.css'
 class InputText extends React.Component{
 
     render(){
+
         return(
             <div className="overallFormDiv" >  
             <form id={ "textInputForm" } className="textForm" onSubmit={ this.props.handleSubmit } >
@@ -19,7 +20,7 @@ class InputText extends React.Component{
 }
 
 InputText = reduxForm({
-    form: 'InputText'
+    form: 'textForm'
 })( InputText );
 
 export default InputText
