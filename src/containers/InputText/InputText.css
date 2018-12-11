@@ -5,13 +5,19 @@
     align-items: center;
     height: 100vh;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif; 
 }
 
 .inputInnerDiv{
     flex: 1;
     border: 1px solid black;
+    border-radius: 3px;
     padding: 5px; 
     width: 40%;
+}
+
+.shadowCentralComponent{
+    box-shadow: 5px 3px 5px black;
 }
 
 .inputTopControl{
@@ -20,4 +26,30 @@
 
 .inputLiftDiv{
     flex: 3;
+}
+
+.errorMessage{
+    color: #bf3b33;
+}
+
+.overallFormDiv{
+    width: 100%; 
+    max-width: 900px;
+}
+
+.textForm{
+    margin: auto;
+    width: 100%;
+}
+
+.textField{
+    width: 95%; 
+    min-height: 200px;
+    min-width: 400px;
+}
+
+.textTitle{
+    margin: 10px;
+    width: 70%;
+    min-width: 400px;
 }
