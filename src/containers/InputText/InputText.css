@@ -1,31 +1,5 @@
-.inputContainerDiv{
-    display : flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif; 
-}
-
 .inputInnerDiv{
-    flex: 1;
-    border: 1px solid black;
-    border-radius: 3px;
-    padding: 5px; 
     width: 40%;
-}
-
-.shadowCentralComponent{
-    box-shadow: 5px 3px 5px black;
-}
-
-.inputTopControl{
-    flex: 1;
-}
-
-.inputLiftDiv{
-    flex: 3;
 }
 
 .errorMessage{
@@ -46,6 +20,7 @@
     width: 95%; 
     min-height: 200px;
     min-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .textTitle{

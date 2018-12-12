@@ -27,6 +27,39 @@ button{
 
 .generalInput{
     padding: 5px;
-    background-color: #d1cfc6;
+    background-color: #e7f1ee;
     border-radius: 5px;
+    border: 1px solid transparent;
  }
+/*ebecf2    */
+
+
+.containerDiv{
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.innerDiv{
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px; 
+}
+
+.shadowCentralComponent{
+    box-shadow: 5px 5px 5px black;
+}
+
+.topControl{
+    flex: 1;
+}
+
+.liftDiv{
+    flex: 3;
+}
+

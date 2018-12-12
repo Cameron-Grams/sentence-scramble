@@ -7,11 +7,13 @@ class Main extends React.Component{
 
     render(){
         return(
-            <div className={ "mainContainerDiv"}> 
-                <div className={ "mainInnerDiv"}>
+            <div className={ "containerDiv"}> 
+                <div className={ "topControl"}></div>
+                <div className={ "innerDiv mainInnerDiv shadowCentralComponent"}>
                     <p>Placeholder</p>
                     <Link to={ "/input" }><button>Go to Input</button></Link>
                 </div>
+                <div className={ "liftDiv"}></div>
             </div>
         )
     }

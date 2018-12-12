@@ -9,7 +9,7 @@ class OutputPage extends React.Component{
 
     render(){
         return(
-            <div>Placeholder</div>
+            <div>{ this.props.text.originalText }</div>
         )
     }
 }

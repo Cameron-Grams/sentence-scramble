@@ -14,14 +14,14 @@ class InputPage extends React.Component{
 
     render(){
         return(
-            <div className={ "inputContainerDiv"} > 
-                <div className={ "inputTopControl"}></div>
-                <div className={ "inputInnerDiv shadowCentralComponent" }>
+            <div className={ "containerDiv"} > 
+                <div className={ "topControl"}></div>
+                <div className={ "innerDiv inputInnerDiv shadowCentralComponent" }>
                     <h2 className={ "titleElement" }>Input text</h2>
                     <p>Type or copy and past text to be broken in sentences and scrambled:</p>
                     <InputText onSubmit={ this.registerInputText } />
                 </div>
-                <div className={ "inputLiftDiv"}></div>
+                <div className={ "liftDiv"}></div>
             </div>
         )
     }
