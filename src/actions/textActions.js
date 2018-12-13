@@ -1,8 +1,7 @@
 export function registerText( values ){
 
-    const sentences = values.originalTextInput.split(  )
-
-/* need to add in the working RegEx */
+    let re = /([a-zA-Z0-9\s\,\-\;]+)[\.\?!]/g;
+    let sentences = re[Symbol.match]( values.originalTextInput ); 
 
     console.log( "in actions with sentences: ", sentences)
 
